@@ -1,0 +1,7 @@
+CREATE TABLE Pessoas(
+	cod_ID 	NUMBER(5)		NOT NULL,
+	nome	VARCHAR2(100)	NOT NULL,
+	email 	VARCHAR2(100)	NOT NULL,
+	CONSTRAINT pk_pessoas  	PRIMARY KEY (cod_ID),
+	CONSTRAINT uk_cursos_cod_ID UNIQUE (cod_ID),
+);
