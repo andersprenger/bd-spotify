@@ -14,3 +14,13 @@ CREATE TABLE Artistas(
     CONSTRAINT fk_pes_art   FOREIGN KEY (cod_ID),
     CONSTRAINT uk_artistas_nome_art UNIQUE (nome_art)
 );
+
+CREATE TABLE Musica(
+	nome VARCHAR2(100) NOT NULL,
+	id_musica NUMBER(8) NOT NULL,
+	duracao NUMBER(8) NOT NULL,
+	qnt_estrelas NUMBER(1) NOT NULL,
+	estilo_musical VARCHAR2(100)
+
+	CONSTRAINT pk_musicas PRIMARY KEY (id_musica)
+);
