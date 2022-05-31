@@ -82,7 +82,7 @@ ALTER TABLE cartao_credito
 ADD CONSTRAINT verificaValidade
 check(validade < sysdate );
 
-
+-- create table playlists
 
 CREATE TABLE Playlists(
 	ID_List	NUMBER(5) NOT NULL,
