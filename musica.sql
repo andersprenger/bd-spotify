@@ -6,4 +6,4 @@ Values              ('Mad with you','Ashnikko',224,4.5,'pop alternativo'),
                     ('Oriana','Ashnikko, Torpse',90,5,'pop alternativo'),
                     ('Gosto roxo','Luan Santana',186,1,'pagode'),
                     ('Mad with you','Torpse',224,3.75,'reggie'),
-                    ('Bom te ver','Luan Santana',224,4.8,'rock'),
+                    ('Bom te ver','Luan Santana',224,4.8,'rock');
